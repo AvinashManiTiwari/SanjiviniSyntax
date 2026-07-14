@@ -1,0 +1,472 @@
+/* ==========================================
+   SanjiviniSyntax
+   hero.css
+========================================== */
+
+
+
+
+
+/* ===========================
+   HOME HERO
+=========================== */
+
+.hero{
+
+    padding: 100px 0;
+
+    background: linear-gradient(
+        135deg,
+        #eff6ff,
+        #ffffff
+    );
+
+}
+
+.hero .container{
+
+    display: grid;
+
+    grid-template-columns: repeat(2,1fr);
+
+    gap: 60px;
+
+    align-items: center;
+
+}
+
+
+
+
+
+/* ===========================
+   Hero Content
+=========================== */
+
+.hero-content h1{
+
+    font-size: var(--font-size-4xl);
+
+    color: var(--heading-color);
+
+    line-height: 1.2;
+
+    margin-bottom: 20px;
+
+}
+
+.hero-content h1 span{
+
+    color: var(--primary-color);
+
+}
+
+.hero-content p{
+
+    font-size: var(--font-size-lg);
+
+    color: var(--text-light);
+
+    margin-bottom: 35px;
+
+}
+
+
+
+
+
+/* ===========================
+   Hero Buttons
+=========================== */
+
+.hero-buttons{
+
+    display: flex;
+
+    gap: 18px;
+
+    flex-wrap: wrap;
+
+    margin-bottom: 40px;
+
+}
+
+
+
+
+
+/* ===========================
+   Hero Stats
+=========================== */
+
+.hero-stats{
+
+    display: flex;
+
+    gap: 40px;
+
+    flex-wrap: wrap;
+
+}
+
+.hero-stat{
+
+    text-align: center;
+
+}
+
+.hero-stat h2{
+
+    color: var(--primary-color);
+
+    font-size: 34px;
+
+    margin-bottom: 8px;
+
+}
+
+.hero-stat p{
+
+    font-size: 15px;
+
+}
+
+
+
+
+
+/* ===========================
+   Hero Image
+=========================== */
+
+.hero-image{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.hero-image img{
+
+    width: 100%;
+
+    max-width: 520px;
+
+}
+
+
+
+
+
+/* ===========================
+   PAGE HERO
+=========================== */
+
+.page-hero{
+
+    background: linear-gradient(
+        135deg,
+        var(--primary-color),
+        var(--primary-dark)
+    );
+
+    color: #ffffff;
+
+    text-align: center;
+
+    padding: 90px 0;
+
+}
+
+.page-hero h1{
+
+    color: #ffffff;
+
+    font-size: 48px;
+
+    margin-bottom: 18px;
+
+}
+
+.page-hero p{
+
+    color: rgba(255,255,255,.9);
+
+    max-width: 700px;
+
+    margin: auto;
+
+    font-size: 18px;
+
+}
+
+
+
+
+
+/* ===========================
+   Breadcrumb
+=========================== */
+
+.breadcrumb{
+
+    margin-top: 20px;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    flex-wrap: wrap;
+
+}
+
+.breadcrumb a{
+
+    color: #ffffff;
+
+}
+
+.breadcrumb span{
+
+    opacity: .8;
+
+}
+
+
+
+
+
+/* ===========================
+   CTA Buttons
+=========================== */
+
+.cta-buttons{
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+    margin-top: 30px;
+
+}
+
+
+
+
+
+/* ===========================
+   Hero Search
+=========================== */
+
+.hero-search{
+
+    display: flex;
+
+    margin-top: 35px;
+
+    max-width: 550px;
+
+}
+
+.hero-search input{
+
+    flex: 1;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 8px 0 0 8px;
+
+}
+
+.hero-search button{
+
+    width: 60px;
+
+    background: var(--primary-color);
+
+    color: #ffffff;
+
+    border-radius: 0 8px 8px 0;
+
+}
+
+
+
+
+
+/* ===========================
+   Hero Cards
+=========================== */
+
+.hero-card{
+
+    background: #ffffff;
+
+    padding: 25px;
+
+    border-radius: var(--border-radius);
+
+    box-shadow: var(--shadow-md);
+
+}
+
+
+
+
+
+/* ===========================
+   Floating Card
+=========================== */
+
+.floating-card{
+
+    position: absolute;
+
+    background: #ffffff;
+
+    padding: 15px 20px;
+
+    border-radius: var(--border-radius);
+
+    box-shadow: var(--shadow-md);
+
+}
+
+
+
+
+
+/* ===========================
+   Hero Icons
+=========================== */
+
+.hero-icon{
+
+    width: 65px;
+
+    height: 65px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: var(--primary-light);
+
+    color: var(--primary-color);
+
+    font-size: 28px;
+
+}
+
+
+
+
+
+/* ===========================
+   Hero Badge
+=========================== */
+
+.hero-badge{
+
+    display: inline-block;
+
+    padding: 8px 18px;
+
+    background: var(--primary-light);
+
+    color: var(--primary-color);
+
+    border-radius: 50px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+
+
+/* ===========================
+   Hero Features
+=========================== */
+
+.hero-features{
+
+    display: flex;
+
+    gap: 25px;
+
+    flex-wrap: wrap;
+
+    margin-top: 30px;
+
+}
+
+.hero-feature{
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+}
+
+.hero-feature i{
+
+    color: var(--success-color);
+
+}
+
+
+
+
+
+/* ===========================
+   Section Title
+=========================== */
+
+.section-title{
+
+    text-align: center;
+
+    margin-bottom: 50px;
+
+}
+
+.section-title h2{
+
+    font-size: 38px;
+
+    margin-bottom: 15px;
+
+}
+
+.section-title p{
+
+    max-width: 700px;
+
+    margin: auto;
+
+    color: var(--text-light);
+
+}

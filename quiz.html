@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz | SanjiviniSyntax</title>
+
+    <!-- Favicon -->
+
+    <link rel="shortcut icon"
+        href="favicon.ico"
+        type="image/x-icon">
+
+    <!-- Google Font -->
+
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+        href="css/style.css">
+
+</head>
+
+<body>
+
+
+
+
+
+    <!-- ===========================
+            HEADER
+    ============================ -->
+
+    <header class="header">
+
+        <div class="container">
+
+            <a href="index.html" class="logo">
+
+                <img src="images/logo/logo.png"
+                    alt="Logo">
+
+                <span>SanjiviniSyntax</span>
+
+            </a>
+
+            <nav class="navbar">
+
+                <ul class="nav-links">
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="courses.html">Courses</a></li>
+
+                    <li><a href="notes.html">Notes</a></li>
+
+                    <li><a href="videos.html">Videos</a></li>
+
+                    <li><a href="quiz.html" class="active">Quiz</a></li>
+
+                    
+
+                    <li><a href="about.html">About</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+
+            </nav>
+
+            <div class="nav-buttons">
+
+                
+
+                <a href="login.html"
+                    class="btn login-btn">
+
+                    Login
+
+                </a>
+
+                <a href="register.html"
+                    class="btn register-btn">
+
+                    Register
+
+                </a>
+
+            </div>
+
+            <div class="menu-toggle">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+
+
+    <!-- ===========================
+            HERO
+    ============================ -->
+
+    <section class="page-hero">
+
+        <div class="container">
+
+            <h1>
+
+                Programming Quiz
+
+            </h1>
+
+            <p>
+
+                Practice MCQs, improve your knowledge and
+                prepare for placements with SanjiviniSyntax.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- ===========================
+            QUIZ RULES
+    ============================ -->
+
+    <section class="quiz-rules">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Quiz Rules
+
+                </h2>
+
+            </div>
+
+            <div class="rules-box">
+
+                <div class="rule-item">
+
+                    <i class="fa-solid fa-1"></i>
+
+                    <p>
+
+                        Read every question carefully before selecting
+                        your answer.
+
+                    </p>
+
+                </div>
+
+                <div class="rule-item">
+
+                    <i class="fa-solid fa-2"></i>
+
+                    <p>
+
+                        Each question carries equal marks.
+
+                    </p>
+
+                </div>
+
+                <div class="rule-item">
+
+                    <i class="fa-solid fa-3"></i>
+
+                    <p>
+
+                        You can change your answer before submitting.
+
+                    </p>
+
+                </div>
+
+                <div class="rule-item">
+
+                    <i class="fa-solid fa-4"></i>
+
+                    <p>
+
+                        Quiz will automatically end when the timer finishes.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <!-- ===========================
+            RECOMMENDED QUIZZES
+    ============================ -->
+
+    <section class="recommended-quizzes">
+        <div class="container">
+            <div class="section-title">
+                <h2>
+                    Recommended Quizzes
+                </h2>
+                <p>
+                    Continue your learning journey with more quizzes.
+                </p>
+            </div>
+            <div class="quiz-grid">
+                <div class="quiz-card" id="htmlQuiz">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>
+                        HTML Quiz
+                    </h3>
+                    <p>
+                        20 Questions
+                    </p>
+                    <a href="#" class="btn primary-btn">
+                        Start Quiz
+                    </a>
+                </div>
+
+                <div class="quiz-card" id="cssQuiz">
+
+                    <i class="fa-brands fa-css3-alt"></i>
+
+                    <h3>
+
+                        CSS Quiz
+
+                    </h3>
+
+                    <p>
+
+                        25 Questions
+
+                    </p>
+
+                    <a href="#" class="btn primary-btn">
+
+                        Start Quiz
+
+                    </a>
+
+                </div>
+
+                <div class="quiz-card" id="jsQuiz">
+
+                    <i class="fa-brands fa-js"></i>
+
+                    <h3>
+
+                        JavaScript Quiz
+
+                    </h3>
+
+                    <p>
+
+                        30 Questions
+
+                    </p>
+
+                    <a href="#" class="btn primary-btn">
+
+                        Start Quiz
+
+                    </a>
+
+                </div>
+
+                <div class="quiz-card" id="reactQuiz">
+
+                    <i class="fa-brands fa-react"></i>
+
+                    <h3>
+
+                        React Quiz
+
+                    </h3>
+
+                    <p>
+
+                        20 Questions
+
+                    </p>
+
+                    <a href="#" class="btn primary-btn">
+
+                        Start Quiz
+
+                    </a>
+
+                </div>
+
+
+
+                <div class="quiz-card" id="dbmsQuiz">
+
+    <i class="fa-solid fa-database"></i>
+
+    <h3>
+        DBMS Quiz
+    </h3>
+
+    <p>
+        20 Questions
+    </p>
+
+    <a href="#" class="btn primary-btn">
+        Start Quiz
+    </a>
+
+</div>
+
+
+
+
+<div class="quiz-card" id="osQuiz">
+
+    <i class="fa-solid fa-desktop"></i>
+
+    <h3>
+        Operating System Quiz
+    </h3>
+
+    <p>
+        20 Questions
+    </p>
+
+    <a href="#" class="btn primary-btn">
+        Start Quiz
+    </a>
+
+</div>
+
+
+
+
+<div class="quiz-card" id="cnQuiz">
+
+    <i class="fa-solid fa-network-wired"></i>
+
+    <h3>
+        Computer Network Quiz
+    </h3>
+
+    <p>
+        20 Questions
+    </p>
+
+    <a href="#" class="btn primary-btn">
+        Start Quiz
+    </a>
+
+</div>
+
+
+
+<div class="quiz-card" id="dsaQuiz">
+
+    <i class="fa-solid fa-code-branch"></i>
+
+    <h3>
+        DSA Quiz
+    </h3>
+
+    <p>
+        20 Questions
+    </p>
+
+    <a href="#" class="btn primary-btn">
+        Start Quiz
+    </a>
+
+</div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+<!-- ==========================================
+        QUIZ CONTAINER
+========================================== -->
+
+<section class="quiz-container">
+
+    <div class="container">
+
+        <div id="quizContainer" class="quiz-box" style="display:none;">
+
+            <!-- Quiz Header -->
+
+            <div class="quiz-header">
+
+                <h2 id="quizTitle">
+
+                    HTML Quiz
+
+                </h2>
+
+                <div class="quiz-info">
+
+                    <span>
+
+                        Question
+
+                        <strong id="questionNumber">
+
+                            1
+
+                        </strong>
+
+                        /
+
+                        <strong id="totalQuestion">
+
+                            20
+
+                        </strong>
+
+                    </span>
+
+                    <span>
+
+                        Time :
+
+                        <strong id="timer">
+
+                            30
+
+                        </strong>
+
+                        sec
+
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Progress -->
+
+            <div class="progress">
+
+                <div id="progressBar"></div>
+
+            </div>
+
+
+
+            <!-- Question -->
+
+            <div class="question-area">
+
+                <h3 id="questionText">
+
+                </h3>
+
+            </div>
+
+
+
+            <!-- Options -->
+
+            <div id="optionContainer"
+
+                class="option-list">
+
+            </div>
+
+
+
+            <!-- Buttons -->
+
+            <div class="quiz-buttons">
+
+                <button
+
+                    id="previousBtn"
+
+                    class="btn secondary-btn">
+
+                    Previous
+
+                </button>
+
+
+
+                <button
+
+                    id="nextBtn"
+
+                    class="btn primary-btn">
+
+                    Next
+
+                </button>
+
+            </div>
+
+
+
+        </div>
+
+
+
+        <!-- Result -->
+
+        <div id="resultBox"
+
+            class="quiz-result"
+
+            style="display:none;">
+
+            <h2>
+
+                Quiz Completed 🎉
+
+            </h2>
+
+
+
+            <h3 id="resultScore">
+
+            </h3>
+
+
+
+            <p id="correctAnswer">
+
+            </p>
+
+
+
+            <p id="wrongAnswer">
+
+            </p>
+
+
+
+            <p id="percentage">
+
+            </p>
+
+
+
+            <p id="highScore">
+
+            </p>
+
+
+
+            <button
+
+                id="restartQuiz"
+
+                class="btn primary-btn">
+
+                Restart Quiz
+
+            </button>
+
+        </div>
+
+
+
+    </div>
+
+</section>
+
+
+
+
+
+        <!-- ===========================
+            CALL TO ACTION
+    ============================ -->
+
+    <section class="cta">
+
+        <div class="container">
+
+            <div class="cta-content">
+
+                <h2>
+
+                    Keep Learning & Keep Growing
+
+                </h2>
+
+                <p>
+
+                    Practice more quizzes, explore courses and
+                    improve your programming skills every day.
+
+                </p>
+
+                <div class="cta-buttons">
+
+                    <a href="courses.html"
+                        class="btn primary-btn">
+
+                        Explore Courses
+
+                    </a>
+
+                    <a href="notes.html"
+                        class="btn secondary-btn">
+
+                        Download Notes
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- ===========================
+            NEWSLETTER
+    ============================ -->
+
+    <section class="newsletter">
+
+        <div class="container">
+
+            <div class="newsletter-content">
+
+                <h2>
+
+                    Subscribe to Our Newsletter
+
+                </h2>
+
+                <p>
+
+                    Stay updated with new quizzes,
+                    notes, courses and video tutorials.
+
+                </p>
+
+                <form class="newsletter-form">
+
+                    <input
+                        type="email"
+                        placeholder="Enter your email"
+                        required>
+
+                    <button
+                        type="submit"
+                        class="btn primary-btn">
+
+                        Subscribe
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- ===========================
+            FOOTER
+    ============================ -->
+
+    <footer class="footer">
+
+        <div class="container footer-container">
+
+            <!-- About -->
+
+            <div class="footer-box">
+
+                <h3>SanjiviniSyntax</h3>
+
+                <p>
+
+                    Learn programming, practice quizzes,
+                    watch tutorials and download study notes
+                    from one platform.
+
+                </p>
+
+                <div class="social-links">
+
+                    <a href="https://www.facebook.com/avinashmani.tiwari.7">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/avinashmanitiwari?igsh=cGVra3g1dnJsM3B3">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/avinash-mani-tripathi-502748303">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="https://github.com/AvinashManiTiwari">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a href="https://youtube.com/@avinashmanitripathi-sn?si=5_tCPhPoe6gkBwIs">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <!-- Quick Links -->
+
+            <div class="footer-box">
+
+                <h3>Quick Links</h3>
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="courses.html">Courses</a></li>
+
+                    <li><a href="notes.html">Notes</a></li>
+
+                    <li><a href="videos.html">Videos</a></li>
+
+                    <li><a href="quiz.html">Quiz</a></li>
+
+                    
+
+                </ul>
+
+            </div>
+
+
+
+
+
+            <!-- Resources -->
+
+            <div class="footer-box">
+
+                <h3>Resources</h3>
+
+                <ul>
+
+                    <li><a href="about.html">About Us</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+
+                    <li><a href="faq.html">FAQ</a></li>
+
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+
+                    <li>
+
+                        <a href="terms-and-conditions.html">
+
+                            Terms & Conditions
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+
+
+
+            <!-- Contact -->
+
+            <div class="footer-box">
+
+                <h3>Contact Info</h3>
+
+                <p>
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:tiwariavinashmani59@gmail.com">info@sanjivinisyntax.com</a>
+                    <!-- info@sanjivinisyntax.com -->
+                </p>
+
+                <p>
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+916306616683">6306616683</a>
+                    <!-- +91 6306616683 -->
+                </p>
+
+                <p>
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    Uttar Pradesh, India
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <!-- Footer Bottom -->
+
+        <div class="footer-bottom">
+
+            <div class="container">
+
+                <p>
+
+                    © 2026
+                    <strong>SanjiviniSyntax</strong>.
+                    All Rights Reserved.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+    <!-- ===========================
+            JAVASCRIPT FILES
+    ============================ -->
+
+    <script src="js/utils.js"></script>
+    <script src="js/menu.js"></script>
+   
+    <script src="js/search.js"></script>
+    <script src="js/quiz.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/auth.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,307 @@
+/* ==========================================
+   SanjiviniSyntax
+   reset.css
+========================================== */
+
+/* ===========================
+   Google Font
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ===========================
+   Universal Reset
+=========================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===========================
+   HTML
+=========================== */
+
+html{
+
+    scroll-behavior: smooth;
+
+}
+
+/* ===========================
+   Body
+=========================== */
+
+body{
+
+    font-family: var(--font-family);
+
+    font-size: var(--font-size-md);
+
+    line-height: var(--line-height);
+
+    color: var(--text-color);
+
+    background: var(--bg-color);
+
+    overflow-x: hidden;
+
+}
+
+/* ===========================
+   Container
+=========================== */
+
+.container{
+
+    width: 90%;
+
+    max-width: var(--container-width);
+
+    margin: auto;
+
+}
+
+/* ===========================
+   Headings
+=========================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+
+    color: var(--heading-color);
+
+    font-weight: var(--font-bold);
+
+    line-height: var(--heading-line-height);
+
+    /* color: red !important; */
+}
+
+/* ===========================
+   Paragraph
+=========================== */
+
+p{
+
+    color: var(--text-light);
+
+    line-height: var(--line-height);
+
+}
+
+/* ===========================
+   Links
+=========================== */
+
+a{
+
+    text-decoration: none;
+
+    color: inherit;
+
+    transition: var(--transition);
+
+}
+
+/* ===========================
+   Lists
+=========================== */
+
+ul,
+ol{
+
+    list-style: none;
+
+}
+
+/* ===========================
+   Images
+=========================== */
+
+img{
+
+    max-width: 100%;
+
+    display: block;
+
+}
+
+/* ===========================
+   Buttons
+=========================== */
+
+button{
+
+    border: none;
+
+    outline: none;
+
+    cursor: pointer;
+
+    background: transparent;
+
+    font-family: inherit;
+
+}
+
+/* ===========================
+   Inputs
+=========================== */
+
+input,
+textarea,
+select{
+
+    width: 100%;
+
+    outline: none;
+
+    border: 1px solid var(--border-color);
+
+    font-family: inherit;
+
+    font-size: var(--font-size-md);
+
+}
+
+/* ===========================
+   Textarea
+=========================== */
+
+textarea{
+
+    resize: vertical;
+
+}
+
+/* ===========================
+   Table
+=========================== */
+
+table{
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+}
+
+/* ===========================
+   Section
+=========================== */
+
+section{
+
+    padding: var(--section-padding) 0;
+
+}
+
+/* ===========================
+   Utility Classes
+=========================== */
+
+.text-center{
+
+    text-align: center;
+
+}
+
+.flex{
+
+    display: flex;
+
+}
+
+.grid{
+
+    display: grid;
+
+}
+
+.hidden{
+
+    display: none;
+
+}
+
+/* ===========================
+   Scrollbar
+=========================== */
+
+::-webkit-scrollbar{
+
+    width: 8px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background: #eeeeee;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background: var(--primary-color);
+
+    border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background: var(--primary-dark);
+
+}
+
+/* ===========================
+   Text Selection
+=========================== */
+
+::selection{
+
+    background: var(--primary-color);
+
+    color: #ffffff;
+
+}
+
+/* ===========================
+   Placeholder
+=========================== */
+
+::placeholder{
+
+    color: #94a3b8;
+
+}
+
+/* ===========================
+   Focus
+=========================== */
+
+input:focus,
+textarea:focus,
+select:focus{
+
+    border-color: var(--primary-color);
+
+}
+
+/* ===========================
+   Horizontal Line
+=========================== */
+
+hr{
+
+    border: none;
+
+    border-top: 1px solid var(--border-color);
+
+}

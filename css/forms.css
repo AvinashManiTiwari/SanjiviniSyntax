@@ -1,0 +1,560 @@
+/* ==========================================
+   SanjiviniSyntax
+   forms.css
+========================================== */
+
+
+
+
+
+/* ===========================
+   Form
+=========================== */
+
+form{
+
+    width:100%;
+
+}
+
+
+
+
+
+/* ===========================
+   Form Group
+=========================== */
+
+.form-group{
+
+    margin-bottom:20px;
+
+}
+
+
+
+
+
+/* ===========================
+   Label
+=========================== */
+
+.form-group label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    color:var(--heading-color);
+
+}
+
+
+
+
+
+/* ===========================
+   Input
+=========================== */
+
+.form-group input,
+
+.form-group textarea,
+
+.form-group select{
+
+    width:100%;
+
+    padding:14px 16px;
+
+    border:1px solid var(--border-color);
+
+    border-radius:var(--border-radius);
+
+    background:#ffffff;
+
+    color:var(--text-color);
+
+    transition:var(--transition);
+
+}
+
+
+
+
+
+/* ===========================
+   Focus
+=========================== */
+
+.form-group input:focus,
+
+.form-group textarea:focus,
+
+.form-group select:focus{
+
+    border-color:var(--primary-color);
+
+    box-shadow:0 0 0 3px rgba(37,99,235,.15);
+
+}
+
+
+
+
+
+/* ===========================
+   Textarea
+=========================== */
+
+textarea{
+
+    resize:vertical;
+
+    min-height:150px;
+
+}
+
+
+
+
+
+/* ===========================
+   Placeholder
+=========================== */
+
+input::placeholder,
+
+textarea::placeholder{
+
+    color:#94a3b8;
+
+}
+
+
+
+
+
+/* ===========================
+   Checkbox
+=========================== */
+
+input[type="checkbox"]{
+
+    width:auto;
+
+    margin-right:8px;
+
+    cursor:pointer;
+
+}
+
+
+
+
+
+/* ===========================
+   Radio
+=========================== */
+
+input[type="radio"]{
+
+    width:auto;
+
+    margin-right:8px;
+
+    cursor:pointer;
+
+}
+
+
+
+
+
+/* ===========================
+   Password Box
+=========================== */
+
+.password-box{
+
+    position:relative;
+
+}
+
+.password-box input{
+
+    padding-right:50px;
+
+}
+
+.toggle-password{
+
+    position:absolute;
+
+    right:15px;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    cursor:pointer;
+
+    color:var(--text-light);
+
+}
+
+
+
+
+
+/* ===========================
+   Search Box
+=========================== */
+
+.search-box{
+
+    display:flex;
+
+    width:100%;
+
+}
+
+.search-box input{
+
+    flex:1;
+
+    padding:15px;
+
+    border-radius:8px 0 0 8px;
+
+}
+
+.search-box button{
+
+    width:60px;
+
+    background:var(--primary-color);
+
+    color:#ffffff;
+
+    border-radius:0 8px 8px 0;
+
+}
+
+
+
+
+
+/* ===========================
+   Newsletter
+=========================== */
+
+.newsletter-form{
+
+    display:flex;
+
+    gap:15px;
+
+    flex-wrap:wrap;
+
+}
+
+.newsletter-form input{
+
+    flex:1;
+
+    min-width:250px;
+
+}
+
+
+
+
+
+/* ===========================
+   Contact Form
+=========================== */
+
+.contact-form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+
+
+
+
+/* ===========================
+   Login/Register
+=========================== */
+
+.login-form,
+
+.register-form{
+
+    width:100%;
+
+}
+
+
+
+
+
+/* ===========================
+   Remember Me
+=========================== */
+
+.remember-me{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+}
+
+
+
+
+
+/* ===========================
+   Error
+=========================== */
+
+.input-error{
+
+    border-color:var(--danger-color) !important;
+
+}
+
+.error-text{
+
+    color:var(--danger-color);
+
+    font-size:13px;
+
+    margin-top:6px;
+
+}
+
+
+
+
+
+/* ===========================
+   Success
+=========================== */
+
+.input-success{
+
+    border-color:var(--success-color) !important;
+
+}
+
+
+
+
+
+/* ===========================
+   Disabled
+=========================== */
+
+input:disabled,
+
+textarea:disabled,
+
+select:disabled{
+
+    background:#f1f5f9;
+
+    cursor:not-allowed;
+
+}
+
+
+
+
+
+/* ===========================
+   Buttons
+=========================== */
+
+button,
+
+.btn{
+
+    display:inline-flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:14px 28px;
+
+    border:none;
+
+    border-radius:var(--btn-radius);
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:var(--transition);
+
+}
+
+
+
+
+
+/* ===========================
+   Primary Button
+=========================== */
+
+.primary-btn{
+
+    background:var(--primary-color);
+
+    color:#ffffff;
+
+}
+
+.primary-btn:hover{
+
+    background:var(--primary-dark);
+
+}
+
+
+
+
+
+/* ===========================
+   Secondary Button
+=========================== */
+
+.secondary-btn{
+
+    background:#ffffff;
+
+    color:var(--primary-color);
+
+    border:1px solid var(--primary-color);
+
+}
+
+.secondary-btn:hover{
+
+    background:var(--primary-color);
+
+    color:#ffffff;
+
+}
+
+
+
+
+
+/* ===========================
+   Full Width Button
+=========================== */
+
+.btn-block{
+
+    width:100%;
+
+}
+
+
+
+
+
+/* ===========================
+   Social Buttons
+=========================== */
+
+.social-btn{
+
+    width:100%;
+
+    justify-content:center;
+
+    border:1px solid var(--border-color);
+
+    background:#ffffff;
+
+}
+
+.social-btn:hover{
+
+    background:var(--primary-color);
+
+    color:#ffffff;
+
+}
+
+
+
+
+
+/* ===========================
+   File Upload
+=========================== */
+
+input[type="file"]{
+
+    padding:10px;
+
+}
+
+
+
+
+
+/* ===========================
+   Select
+=========================== */
+
+select{
+
+    cursor:pointer;
+
+}
+
+
+
+
+
+/* ===========================
+   Form Footer
+=========================== */
+
+.form-footer{
+
+    margin-top:25px;
+
+    text-align:center;
+
+}
+
+.form-footer a{
+
+    color:var(--primary-color);
+
+    font-weight:600;
+
+}

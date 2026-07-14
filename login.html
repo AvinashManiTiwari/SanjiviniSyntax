@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Login | SanjiviniSyntax</title>
+
+    <!-- Favicon -->
+
+    <link rel="shortcut icon"
+        href="favicon.ico"
+        type="image/x-icon">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Main CSS -->
+
+    <link rel="stylesheet"
+        href="css/style.css">
+
+</head>
+
+<body>
+
+
+
+
+
+    <!-- ===========================
+            HEADER
+    ============================ -->
+
+    <header class="header">
+
+        <div class="container">
+
+            <a href="index.html"
+                class="logo">
+
+                <img src="images/logo/logo.png"
+                    alt="SanjiviniSyntax Logo">
+
+                <span>SanjiviniSyntax</span>
+
+            </a>
+
+            <nav class="navbar">
+
+                <ul class="nav-links">
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="courses.html">Courses</a></li>
+
+                    <li><a href="notes.html">Notes</a></li>
+
+                    <li><a href="videos.html">Videos</a></li>
+
+                    <li><a href="quiz.html">Quiz</a></li>
+
+                    
+
+                    <li><a href="about.html">About</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+
+
+
+                </ul>
+
+            </nav>
+
+            <div class="nav-buttons">
+
+                
+
+                <a href="login.html"
+                    class="btn login-btn active">
+
+                    Login
+
+                </a>
+
+                <a href="register.html"
+                    class="btn register-btn">
+
+                    Register
+
+                </a>
+
+                <a href="#" id="logoutBtn" class="btn login-btn">Logout</a>
+
+            </div>
+
+            <div class="menu-toggle">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+
+
+    <!-- ===========================
+            LOGIN HERO
+    ============================ -->
+
+    <section class="page-hero">
+
+        <div class="container">
+
+            <h1>
+
+                Welcome Back
+
+            </h1>
+
+            <p>
+
+                Login to continue your learning journey with
+                SanjiviniSyntax.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- ===========================
+            LOGIN SECTION
+    ============================ -->
+
+    <section class="login-section">
+
+        <div class="container">
+
+            <div class="login-wrapper">
+
+
+
+
+                <!-- Left Side -->
+
+                <div class="login-content">
+
+                    <h2>
+
+                        Login to Your Account
+
+                    </h2>
+
+                    <p>
+
+                        Access your dashboard, courses,
+                        notes, videos and quizzes.
+
+                    </p>
+
+                    <ul class="login-features">
+
+                        <li>
+
+                            <i class="fa-solid fa-circle-check"></i>
+
+                            Continue your enrolled courses
+
+                        </li>
+
+                        <li>
+
+                            <i class="fa-solid fa-circle-check"></i>
+
+                            Track learning progress
+
+                        </li>
+
+                        <li>
+
+                            <i class="fa-solid fa-circle-check"></i>
+
+                            Download study notes
+
+                        </li>
+
+                        <li>
+
+                            <i class="fa-solid fa-circle-check"></i>
+
+                            Attempt quizzes anytime
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+
+
+
+                <!-- Login Form -->
+
+                <div class="login-form">
+
+                    <h2>
+
+                        Sign In
+
+                    </h2>
+
+                    <form id="loginForm">
+
+                                                <!-- Email -->
+
+                        <div class="form-group">
+
+                            <label for="email">
+
+                                Email Address
+
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                placeholder="Enter your email"
+                                required>
+
+                        </div>
+
+
+
+
+
+                        <!-- Password -->
+
+                        <div class="form-group">
+
+                            <label for="password">
+
+                                Password
+
+                            </label>
+
+                            <div class="password-box">
+
+                                <input
+                                    type="password"
+                                    id="password"
+                                    placeholder="Enter your password"
+                                    required>
+
+                                <span class="toggle-password">
+
+                                    <i class="fa-solid fa-eye"></i>
+
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+
+
+
+                        <!-- Remember & Forgot -->
+
+                        <div class="login-options">
+
+                            <label class="remember-me" for="remember-me">
+
+                                <input
+                                    type="checkbox"
+                                    id="rememberMe">
+
+                                Remember Me
+
+                            </label>
+
+                            <a href="#"
+                                class="forgot-password">
+
+                                Forgot Password?
+
+                            </a>
+
+                        </div>
+
+
+
+
+
+                        <!-- Login Button -->
+
+                        <button
+                            type="submit"
+                            class="btn primary-btn login-submit">
+
+                            Login
+
+                        </button>
+
+                    </form>
+
+
+
+
+
+                    <!-- Divider -->
+
+                    <div class="login-divider">
+
+                        <span>
+
+                            OR
+
+                        </span>
+
+                    </div>
+                        
+
+
+
+
+                    <!-- Register Link -->
+
+                    <div class="register-link">
+
+                        <p>
+
+                            Don't have an account?
+
+                            <a href="register.html">
+
+                                Create Account
+
+                            </a>
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- ===========================
+            LOGIN BENEFITS
+    ============================ -->
+
+    <section class="login-benefits">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Why Login?
+
+                </h2>
+
+            </div>
+
+            <div class="benefits-grid">
+
+                <div class="benefit-card">
+
+                    <i class="fa-solid fa-book-open"></i>
+
+                    <h3>
+
+                        Access Courses
+
+                    </h3>
+
+                    <p>
+
+                        Continue learning from where you left off.
+
+                    </p>
+
+                </div>
+
+                <div class="benefit-card">
+
+                    <i class="fa-solid fa-chart-line"></i>
+
+                    <h3>
+
+                        Track Progress
+
+                    </h3>
+
+                    <p>
+
+                        Monitor your learning progress and achievements.
+
+                    </p>
+
+                </div>
+
+                <div class="benefit-card">
+
+                    <i class="fa-solid fa-award"></i>
+
+                    <h3>
+
+                        Earn Certificates
+
+                    </h3>
+
+                    <p>
+
+                        Complete courses and download certificates.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+        <!-- ===========================
+            LOGIN HELP
+    ============================ -->
+
+    <section class="login-help">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Need Help?
+
+                </h2>
+
+                <p>
+
+                    Find quick solutions before contacting support.
+
+                </p>
+
+            </div>
+
+            <div class="help-grid">
+
+                <div class="help-card">
+
+                    <i class="fa-solid fa-key"></i>
+
+                    <h3>
+
+                        Forgot Password
+
+                    </h3>
+
+                    <p>
+
+                        Reset your password securely using your
+                        registered email address.
+
+                    </p>
+
+                </div>
+
+                <div class="help-card">
+
+                    <i class="fa-solid fa-user-plus"></i>
+
+                    <h3>
+
+                        New User?
+
+                    </h3>
+
+                    <p>
+
+                        Create a free account and start learning
+                        programming today.
+
+                    </p>
+
+                </div>
+
+                <div class="help-card">
+
+                    <i class="fa-solid fa-headset"></i>
+
+                    <h3>
+
+                        Support Team
+
+                    </h3>
+
+                    <p>
+
+                        Contact our support team if you face any
+                        login related issue.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- ===========================
+            ACCOUNT SECURITY
+    ============================ -->
+
+    <section class="account-security">
+
+        <div class="container">
+
+            <div class="security-box">
+
+                <div class="security-icon">
+
+                    <i class="fa-solid fa-shield-halved"></i>
+
+                </div>
+
+                <div class="security-content">
+
+                    <h2>
+
+                        Your Account is Secure
+
+                    </h2>
+
+                    <p>
+
+                        We use secure authentication methods to
+                        protect your account and personal information.
+
+                    </p>
+
+                    <ul>
+
+                        <li>
+
+                            <i class="fa-solid fa-check"></i>
+
+                            Secure Login
+
+                        </li>
+
+                        <li>
+
+                            <i class="fa-solid fa-check"></i>
+
+                            Encrypted Password
+
+                        </li>
+
+                        <li>
+
+                            <i class="fa-solid fa-check"></i>
+
+                            Privacy Protection
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- ===========================
+            STUDENT REVIEWS
+    ============================ -->
+
+    <section class="login-testimonials">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>
+
+                    What Students Say
+
+                </h2>
+
+            </div>
+
+            <div class="testimonial-grid">
+
+                <div class="testimonial-card">
+
+                    <i class="fa-solid fa-quote-left"></i>
+
+                    <p>
+
+                        The dashboard helps me track my progress
+                        and continue learning every day.
+
+                    </p>
+
+                    <h4>
+
+                        Rahul Kumar
+
+                    </h4>
+
+                </div>
+
+                <div class="testimonial-card">
+
+                    <i class="fa-solid fa-quote-left"></i>
+
+                    <p>
+
+                        Easy login experience and all my notes
+                        are available in one place.
+
+                    </p>
+
+                    <h4>
+
+                        Priya Singh
+
+                    </h4>
+
+                </div>
+
+                <div class="testimonial-card">
+
+                    <i class="fa-solid fa-quote-left"></i>
+
+                    <p>
+
+                        A clean and user-friendly platform for
+                        programming students.
+
+                    </p>
+
+                    <h4>
+
+                        Amit Verma
+
+                    </h4>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- ===========================
+            CALL TO ACTION
+    ============================ -->
+
+    <section class="login-cta">
+
+        <div class="container">
+
+            <div class="cta-box">
+
+                <h2>
+
+                    Ready to Start Learning?
+
+                </h2>
+
+                <p>
+
+                    Login now and continue your programming
+                    journey with SanjiviniSyntax.
+
+                </p>
+
+                <div class="cta-buttons">
+
+                    <a href="login.html"
+                        class="btn primary-btn">
+
+                        Login Now
+
+                    </a>
+
+                    <a href="register.html"
+                        class="btn secondary-btn">
+
+                        Create Account
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+        <!-- ===========================
+            NEWSLETTER
+    ============================ -->
+
+    <section class="newsletter">
+
+        <div class="container">
+
+            <div class="newsletter-content">
+
+                <h2>
+
+                    Subscribe to Our Newsletter
+
+                </h2>
+
+                <p>
+
+                    Get updates about new courses, programming
+                    tutorials, quizzes and study resources.
+
+                </p>
+
+                <form class="newsletter-form">
+
+                    <input
+                        type="email"
+                        placeholder="Enter your email address"
+                        required>
+
+                    <button
+                        type="submit"
+                        class="btn primary-btn">
+
+                        Subscribe
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- ===========================
+            FOOTER
+    ============================ -->
+
+    <footer class="footer">
+
+        <div class="container footer-container">
+
+            <!-- About -->
+
+            <div class="footer-box">
+
+                <h3>
+
+                    SanjiviniSyntax
+
+                </h3>
+
+                <p>
+
+                    Learn programming through practical courses,
+                    downloadable notes, video tutorials and
+                    interactive quizzes.
+
+                </p>
+
+                <div class="social-links">
+
+                    <a href="https://www.facebook.com/avinashmani.tiwari.7">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/avinashmanitiwari?igsh=cGVra3g1dnJsM3B3">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/avinash-mani-tripathi-502748303">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="https://github.com/AvinashManiTiwari">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a href="https://youtube.com/@avinashmanitripathi-sn?si=5_tCPhPoe6gkBwIs">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <!-- Quick Links -->
+
+            <div class="footer-box">
+
+                <h3>
+
+                    Quick Links
+
+                </h3>
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="courses.html">Courses</a></li>
+
+                    <li><a href="notes.html">Notes</a></li>
+
+                    <li><a href="videos.html">Videos</a></li>
+
+                    <li><a href="quiz.html">Quiz</a></li>
+
+                    
+
+                </ul>
+
+            </div>
+
+
+
+
+
+            <!-- Resources -->
+
+            <div class="footer-box">
+
+                <h3>
+
+                    Resources
+
+                </h3>
+
+                <ul>
+
+                    <li><a href="about.html">About</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+
+                    <li><a href="faq.html">FAQ</a></li>
+
+                    <li>
+
+                        <a href="privacy-policy.html">
+
+                            Privacy Policy
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="terms-and-conditions.html">
+
+                            Terms & Conditions
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+
+
+
+            <!-- Contact -->
+
+            <div class="footer-box">
+
+                <h3>
+
+                    Contact
+
+                </h3>
+
+                <p>
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:tiwariavinashmani59@gmail.com">info@sanjivinisyntax.com</a>
+                    <!-- info@sanjivinisyntax.com -->
+                </p>
+
+                <p>
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+916306616683">6306616683</a>
+                    <!-- +91 6306616683 -->
+                </p>
+
+
+                 <p>
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    Uttar Pradesh, India
+
+                </p>
+
+                
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <!-- Footer Bottom -->
+
+        <div class="footer-bottom">
+
+            <div class="container">
+
+                <p>
+
+                    © 2026
+                    <strong>SanjiviniSyntax</strong>.
+                    All Rights Reserved.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+    <!-- ===========================
+            JAVASCRIPT FILES
+    ============================ -->
+
+    <script src="js/utils.js"></script>
+    <script src="js/menu.js"></script>
+    
+    <script src="js/login.js"></script>
+    <script src="js/logout.js"></script>
+    
+
+    <!-- Login Script -->
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

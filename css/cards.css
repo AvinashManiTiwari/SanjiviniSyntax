@@ -1,0 +1,464 @@
+/* ==========================================
+   SanjiviniSyntax
+   cards.css
+========================================== */
+
+
+
+
+
+/* ===========================
+   Common Card
+=========================== */
+
+.card{
+
+    background: #ffffff;
+
+    border-radius: var(--border-radius);
+
+    overflow: hidden;
+
+    box-shadow: var(--shadow-sm);
+
+    transition: var(--transition);
+
+}
+
+.card:hover{
+
+    transform: translateY(-8px);
+
+    box-shadow: var(--shadow-lg);
+
+}
+
+
+
+
+
+/* ===========================
+   Card Image
+=========================== */
+
+.card img{
+
+    width:100%;
+
+    display:block;
+
+    object-fit:cover;
+
+}
+
+
+
+
+
+/* ===========================
+   Card Body
+=========================== */
+
+.card-body{
+
+    padding:25px;
+
+}
+
+.card-title{
+
+    margin-bottom:12px;
+
+    color:var(--heading-color);
+
+}
+
+.card-text{
+
+    color:var(--text-light);
+
+    line-height:1.7;
+
+    margin-bottom:18px;
+
+}
+
+
+
+
+
+/* ===========================
+   Card Footer
+=========================== */
+
+.card-footer{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px 25px;
+
+    border-top:1px solid var(--border-color);
+
+}
+
+
+
+
+
+/* ===========================
+   Course Card
+=========================== */
+
+.course-card .price{
+
+    color:var(--primary-color);
+
+    font-size:22px;
+
+    font-weight:700;
+
+}
+
+.course-card .rating{
+
+    color:#f59e0b;
+
+}
+
+
+
+
+
+
+
+/* ===========================
+   Video Card
+=========================== */
+
+.video-card{
+
+    position:relative;
+
+}
+
+.video-card .play-btn{
+
+    position:absolute;
+
+    top:45%;
+
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+}
+
+
+
+
+
+/* ===========================
+   Note Card
+=========================== */
+
+.note-card i{
+
+    font-size:55px;
+
+    color:#ef4444;
+
+    margin-bottom:18px;
+
+}
+
+
+
+
+
+/* ===========================
+   Dashboard Card
+=========================== */
+
+.dashboard-card{
+
+    text-align:center;
+
+}
+
+.dashboard-card h2{
+
+    color:var(--primary-color);
+
+    margin-bottom:10px;
+
+}
+
+
+
+
+
+/* ===========================
+   Team Card
+=========================== */
+
+.team-card img{
+
+    height:280px;
+
+}
+
+.team-card .team-info{
+
+    padding:25px;
+
+}
+
+
+
+
+
+/* ===========================
+   Testimonial Card
+=========================== */
+
+.testimonial-card{
+
+    position:relative;
+
+}
+
+.testimonial-card i{
+
+    font-size:32px;
+
+    color:var(--primary-color);
+
+    margin-bottom:18px;
+
+}
+
+
+
+
+
+/* ===========================
+   Feature Card
+=========================== */
+
+.feature-card i{
+
+    font-size:48px;
+
+    color:var(--primary-color);
+
+    margin-bottom:20px;
+
+}
+
+
+
+
+
+/* ===========================
+   FAQ Card
+=========================== */
+
+.faq-card{
+
+    height:100%;
+
+}
+
+
+
+
+
+/* ===========================
+   Profile Card
+=========================== */
+
+.profile-card{
+
+    text-align:center;
+
+    padding:30px;
+
+}
+
+.profile-card img{
+
+    width:120px;
+
+    height:120px;
+
+    border-radius:50%;
+
+    margin:auto;
+
+    margin-bottom:20px;
+
+}
+
+
+
+
+
+/* ===========================
+   Stat Card
+=========================== */
+
+.stat-card{
+
+    text-align:center;
+
+}
+
+.stat-card h2{
+
+    font-size:38px;
+
+    color:var(--primary-color);
+
+}
+
+
+
+
+
+/* ===========================
+   Hover Border
+=========================== */
+
+.border-hover:hover{
+
+    border:1px solid var(--primary-color);
+
+}
+
+
+
+
+
+/* ===========================
+   Gradient Card
+=========================== */
+
+.gradient-card{
+
+    background:linear-gradient(
+        135deg,
+        var(--primary-color),
+        var(--primary-dark)
+    );
+
+    color:#ffffff;
+
+}
+
+.gradient-card h2,
+
+.gradient-card h3,
+
+.gradient-card p{
+
+    color:#ffffff;
+
+}
+
+
+
+
+
+/* ===========================
+   Card Badge
+=========================== */
+
+.card-badge{
+
+    position:absolute;
+
+    top:15px;
+
+    left:15px;
+
+    background:var(--accent-color);
+
+    color:#ffffff;
+
+    padding:6px 12px;
+
+    border-radius:30px;
+
+    font-size:13px;
+
+}
+
+
+
+
+
+/* ===========================
+   Card Overlay
+=========================== */
+
+.card-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.5);
+
+    opacity:0;
+
+    transition:var(--transition);
+
+}
+
+.card:hover .card-overlay{
+
+    opacity:1;
+
+}
+
+
+
+
+
+/* ===========================
+   Card Actions
+=========================== */
+
+.card-actions{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:15px;
+
+    margin-top:20px;
+
+}
+
+
+
+
+
+/* ===========================
+   Card Grid
+=========================== */
+
+.card-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:30px;
+
+}

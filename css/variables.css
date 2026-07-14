@@ -1,0 +1,155 @@
+/* ==========================================
+   SanjiviniSyntax
+   variables.css
+========================================== */
+
+/* ==========================================
+   Dark Theme Variables
+========================================== */
+
+body.dark-theme {
+
+    --bg-color: #0f172a;
+    --bg-light: #1e293b;
+    --bg-dark: #020617;
+
+    --section-bg: #1e293b;
+    --card-bg: #334155;
+
+    --text-color: #f8fafc;
+    --text-light: #cbd5e1;
+    --heading-color: #ffffff;
+
+    --border-color: #475569;
+
+    --shadow-sm: 0 2px 8px rgba(0,0,0,0.35);
+    --shadow-md: 0 8px 20px rgba(0,0,0,0.45);
+    --shadow-lg: 0 12px 35px rgba(0,0,0,0.55);
+
+}
+
+:root {
+
+    /* ===========================
+       Colors
+    =========================== */
+
+    --primary-color: #2563eb;
+    --primary-dark: #1d4ed8;
+    --primary-light: #dbeafe;
+
+    --secondary-color: #10b981;
+    --secondary-dark: #059669;
+
+    --accent-color: #f59e0b;
+    --danger-color: #ef4444;
+    --warning-color: #f97316;
+    --success-color: #22c55e;
+
+    /* ===========================
+       Background
+    =========================== */
+
+    --bg-color: #ffffff;
+    --bg-light: #f8fafc;
+    --bg-dark: #0f172a;
+
+    --section-bg: #f1f5f9;
+    --card-bg: #ffffff;
+
+    /* ===========================
+       Text Colors
+    =========================== */
+
+    --text-color: #1e293b;
+    --text-light: #64748b;
+    --text-white: #ffffff;
+
+    --heading-color: #0f172a;
+
+    /* ===========================
+       Border
+    =========================== */
+
+    --border-color: #e2e8f0;
+    --border-radius: 10px;
+    --border-radius-lg: 16px;
+    --border-radius-xl: 24px;
+
+    /* ===========================
+       Shadow
+    =========================== */
+
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+    --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.10);
+
+    --shadow-lg: 0 12px 35px rgba(0, 0, 0, 0.15);
+
+    /* ===========================
+       Typography
+    =========================== */
+
+    --font-family: "Poppins", sans-serif;
+
+    --font-size-xs: 12px;
+    --font-size-sm: 14px;
+    --font-size-md: 16px;
+    --font-size-lg: 18px;
+    --font-size-xl: 22px;
+    --font-size-2xl: 32px;
+    --font-size-3xl: 42px;
+    --font-size-4xl: 54px;
+
+    --font-light: 300;
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+
+    /* ===========================
+       Line Height
+    =========================== */
+
+    --line-height: 1.6;
+    --heading-line-height: 1.3;
+
+    /* ===========================
+       Container
+    =========================== */
+
+    --container-width: 1200px;
+
+    --section-padding: 80px;
+    --section-gap: 40px;
+
+    /* ===========================
+       Buttons
+    =========================== */
+
+    --btn-padding: 12px 28px;
+    --btn-radius: 8px;
+
+    /* ===========================
+       Navbar
+    =========================== */
+
+    --navbar-height: 80px;
+
+    /* ===========================
+       Transition
+    =========================== */
+
+    --transition: all 0.3s ease;
+
+    /* ===========================
+       Z-index
+    =========================== */
+
+    --z-navbar: 1000;
+    --z-dropdown: 1100;
+    --z-modal: 2000;
+    --z-loader: 9999;
+
+}
+
