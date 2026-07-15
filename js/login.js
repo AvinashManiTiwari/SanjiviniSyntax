@@ -70,3 +70,38 @@ window.addEventListener("DOMContentLoaded", function () {
     }
 
 });
+
+
+/* ===========================
+   Show / Hide Password
+=========================== */
+
+const passwordInput = document.getElementById("password");
+
+const togglePassword = document.querySelector(".toggle-password");
+
+const eyeIcon = togglePassword.querySelector("i");
+
+togglePassword.addEventListener("click", function(){
+
+    if(passwordInput.type === "password"){
+
+        passwordInput.type = "text";
+
+        eyeIcon.classList.remove("fa-eye");
+
+        eyeIcon.classList.add("fa-eye-slash");
+
+    }
+
+    else{
+
+        passwordInput.type = "password";
+
+        eyeIcon.classList.remove("fa-eye-slash");
+
+        eyeIcon.classList.add("fa-eye");
+
+    }
+
+});
