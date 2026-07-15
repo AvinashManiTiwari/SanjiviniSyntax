@@ -75,3 +75,50 @@ registerForm.addEventListener("submit", function (e) {
     window.location.href = "login.html";
 
 });
+
+
+
+
+
+
+// password eye
+
+/* ===========================
+   Show / Hide Password
+=========================== */
+
+const passwordFields = document.querySelectorAll(".password-box");
+
+passwordFields.forEach(function(box){
+
+    const input = box.querySelector("input");
+
+    const toggle = box.querySelector(".toggle-password");
+
+    const icon = toggle.querySelector("i");
+
+    toggle.addEventListener("click", function(){
+
+        if(input.type === "password"){
+
+            input.type = "text";
+
+            icon.classList.remove("fa-eye");
+
+            icon.classList.add("fa-eye-slash");
+
+        }
+
+        else{
+
+            input.type = "password";
+
+            icon.classList.remove("fa-eye-slash");
+
+            icon.classList.add("fa-eye");
+
+        }
+
+    });
+
+});
