@@ -1,0 +1,77 @@
+
+/* Video Card */
+
+.video-card{
+    position:relative;
+}
+
+.video-card .play-btn{
+
+    position:absolute;
+    top:45%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+
+/* Team Card */
+
+.team-card img{
+    height:280px;
+}
+
+.team-card .team-info{
+    padding:25px;
+}
+
+
+/* Testimonial Card */
+
+.testimonial-card{
+    position:relative;
+}
+
+.testimonial-card i{
+
+    font-size:32px;
+    color:var(--primary-color);
+    margin-bottom:18px;
+
+}
+
+
+/* Feature Card */
+
+.feature-card i{
+
+    font-size:48px;
+    color:var(--primary-color);
+    margin-bottom:20px;
+}
+
+
+/* FAQ Card */
+
+.faq-card{
+    height:100%;
+}
+
+
+/* Stat Card */
+
+.stat-card{
+    text-align:center;
+}
+
+.stat-card h2{
+
+    font-size:38px;
+    color:var(--primary-color);
+}
+
+
+/* Hover Border */
+
+.border-hover:hover{
+    border:1px solid var(--primary-color);
+}

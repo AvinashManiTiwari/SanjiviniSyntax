@@ -1,0 +1,39 @@
+
+/* Global Transition */
+
+*{
+    transition: var(--transition);
+}
+
+ /* Button Hover */
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+
+ /* Card Hover */
+
+.card:hover,
+.course-card:hover,
+.video-card:hover,
+.note-card:hover,
+.team-card:hover,
+.feature-card:hover,
+.testimonial-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+/* Scroll Animation Class */
+
+.reveal{
+    opacity:0;
+    transform:translateY(40px);
+}
+
+.reveal.active{
+    opacity:1;
+    transform:translateY(0);
+}
